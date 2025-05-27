@@ -17,9 +17,11 @@ There are few examples and steps listed below to test the APIs on postman (This 
 POST: /api/create-referral` 
 Generate a referral code for a user’s email. <br> 
 Request Body: -> raw  -> JSON <br> 
-{ <br> 
-  "email": "user@example.com" <br> 
-} <br> 
+**Request Body:**
+```json
+{
+  "email": "user@example.com"
+}
 Response: <br> 
 { <br> 
   "code": "REF-ABC123" (Example random code) <br> 

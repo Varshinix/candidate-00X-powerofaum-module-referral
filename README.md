@@ -11,13 +11,12 @@ You can:
 - Track the number of signups and total credits earned by a referrer <br>
 There are few examples and steps listed below to test the APIs on postman (This is backend only)
 
-**🌟	API Endpoints**
+**🌟	API Endpoints** <br> 
 
-• **📌	Create Referral Code**
-POST: /api/create-referral` 
+• **📌	Create Referral Code** <br> 
+POST: /api/create-referral` <br> 
 Generate a referral code for a user’s email. <br> 
 Request Body: -> raw  -> JSON <br> 
-Request Body: <br>
 { <br>
   "email": "user@example.com" <br>
 } <br>

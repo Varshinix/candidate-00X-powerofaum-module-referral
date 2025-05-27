@@ -14,43 +14,43 @@ There are few examples and steps listed below to test the APIs on postman (This 
 🌟	API Endpoints
 
 • 📌	Create Referral Code  
-POST: /api/create-referral`  
-Generate a referral code for a user’s email.
-Request Body: -> raw  -> JSON
-{
-  "email": "user@example.com"
-}
-Response:
-{
-  "code": "REF-ABC123" (Example random code)
-}
+POST: /api/create-referral` 
+Generate a referral code for a user’s email. <br> 
+Request Body: -> raw  -> JSON <br> 
+{ <br> 
+  "email": "user@example.com" <br> 
+} <br> 
+Response: <br> 
+{ <br> 
+  "code": "REF-ABC123" (Example random code) <br> 
+} <br> 
 
-• 📌	Apply Referral Code
-POST : /api/apply-referral
-Apply a referral code when a friend signs up.
-Request Body: -> raw  -> JSON
-{
-  "code": "REF-ABC123",
- "email": "friend@example.com"
-}
-Response:
-{
-  "applied": true
-}
+• 📌	Apply Referral Code <br> 
+POST : /api/apply-referral <br> 
+Apply a referral code when a friend signs up. <br> 
+Request Body: -> raw  -> JSON <br> 
+{ <br> 
+  "code": "REF-ABC123", <br> 
+ "email": "friend@example.com" <br> 
+} <br> 
+Response: <br> 
+{ <br> 
+  "applied": true <br> 
+} <br> 
 
-• 📌	Get Referral Stats
-GET:  /api/referral-stats?code=REF-ABC123
-Get the number of successful referrals and the total credits earned.
-Sample Request (cURL):
-curl "https://your-backend-url.com/api/referral-stats?code=REF-ABC123"
-Response:
-{
-  "signups": 2,
-  "credits": 300
-}
+• 📌	Get Referral Stats <br> 
+GET:  /api/referral-stats?code=REF-ABC123 <br> 
+Get the number of successful referrals and the total credits earned. <br> 
+Sample Request (cURL): <br> 
+curl "https://your-backend-url.com/api/referral-stats?code=REF-ABC123" <br> 
+Response: <br> 
+{ <br> 
+  "signups": 2, <br> 
+  "credits": 300 <br> 
+} <br> 
 
-⚙️ How to Test:
-You can test the endpoints using:
+⚙️ How to Test: 
+You can test the endpoints using: 
 -	Postman
 -	cURL commands (examples above)
 -	Or create your own simple HTML fetch tester (optional)

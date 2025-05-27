@@ -12,7 +12,7 @@ You can:
 There are few examples and steps listed below to test the APIs on postman (This is backend only)
 
 **🌟	API Endpoints** <br> 
-
+#
 • **📌	Create Referral Code** <br>
 &nbsp;&nbsp;&nbsp;
 POST: /api/create-referral` <br> 

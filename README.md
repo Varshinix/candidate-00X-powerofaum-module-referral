@@ -27,29 +27,29 @@ Response: <br>
 } <br> 
 
 • **📌	Apply Referral Code <br>**
-<br> 
+
 POST : /api/apply-referral <br> 
 Apply a referral code when a friend signs up. <br> 
 Request Body: -> raw  -> JSON <br> 
 { <br> 
-  "code": "REF-ABC123", <br> 
- "email": "friend@example.com" <br> 
+  &nbsp;&nbsp;&nbsp;"code": "REF-ABC123", <br> 
+  &nbsp;&nbsp;&nbsp;"email": "friend@example.com" <br> 
 } <br> 
 Response: <br> 
 { <br> 
-  "applied": true <br> 
+  &nbsp;&nbsp;&nbsp;"applied": true <br> 
 } <br> 
 
 • **📌	Get Referral Stats** <br> 
-<br> 
+
 GET:  /api/referral-stats?code=REF-ABC123 <br> 
 Get the number of successful referrals and the total credits earned. <br> 
 Sample Request (cURL): <br> 
 curl "https://your-backend-url.com/api/referral-stats?code=REF-ABC123" <br> 
 Response: <br> 
 { <br> 
-  "signups": 2, <br> 
-  "credits": 300 <br> 
+  &nbsp;&nbsp;&nbsp;"signups": 2, <br> 
+  &nbsp;&nbsp;&nbsp;"credits": 300 <br> 
 } <br> 
 
 **⚙️ How to Test:** <br>

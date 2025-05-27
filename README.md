@@ -55,6 +55,7 @@ You can test the endpoints using:
 -	cURL commands (examples above)
 -	Or create your own simple HTML fetch tester (optional)
 No frontend is needed—this is backend-only.
+
 🛠️ Tech Stack
 -	Node.js + Express
 -	MongoDB + Mongoose

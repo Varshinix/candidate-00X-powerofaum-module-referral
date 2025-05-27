@@ -1,6 +1,6 @@
 ﻿# candidate-00X-powerofaum-module-referral
 
-**🌟	Referral Code Engine – Alatree Tech Assessment (Module C)**
+**🌟	Referral Code Engine – Tech Assessment (Module C)**
 
 This project is part of the Phase 1 technical assessment for Alatree Ventures.  
 It implements a basic Referral Code Engine with 3 main API endpoints.

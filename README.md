@@ -18,7 +18,6 @@ POST: /api/create-referral`
 Generate a referral code for a user’s email. <br> 
 Request Body: -> raw  -> JSON <br> 
 **Request Body:**
-```json
 {
   "email": "user@example.com"
 }

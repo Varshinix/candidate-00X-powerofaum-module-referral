@@ -8,7 +8,7 @@ It implements a basic Referral Code Engine with 3 main API endpoints.
 You can:
 - Generate unique referral codes tied to an email
 - Apply a referral code when someone signs up
-- Track the number of signups and total credits earned by a referrer
+- Track the number of signups and total credits earned by a referrer <br>
 There are few examples and steps listed below to test the APIs on postman (This is backend only)
 
 🌟	API Endpoints

@@ -13,19 +13,21 @@ There are few examples and steps listed below to test the APIs on postman (This 
 
 **🌟	API Endpoints** <br> 
 
-• **📌	Create Referral Code** <br> 
+• **📌	Create Referral Code** <br>
+<br> 
 POST: /api/create-referral` <br> 
 Generate a referral code for a user’s email. <br> 
 Request Body: -> raw  -> JSON <br> 
 { <br>
-  "email": "user@example.com" <br>
+  &nbsp;&nbsp;&nbsp;"email": "user@example.com" <br>
 } <br>
 Response: <br> 
 { <br> 
-  "code": "REF-ABC123" (Example random code) <br> 
+  &nbsp;&nbsp;&nbsp;"code": "REF-ABC123" (Example random code) <br> 
 } <br> 
 
 • **📌	Apply Referral Code <br>**
+<br> 
 POST : /api/apply-referral <br> 
 Apply a referral code when a friend signs up. <br> 
 Request Body: -> raw  -> JSON <br> 
@@ -39,6 +41,7 @@ Response: <br>
 } <br> 
 
 • **📌	Get Referral Stats** <br> 
+<br> 
 GET:  /api/referral-stats?code=REF-ABC123 <br> 
 Get the number of successful referrals and the total credits earned. <br> 
 Sample Request (cURL): <br> 
@@ -50,6 +53,7 @@ Response: <br>
 } <br> 
 
 **⚙️ How to Test:** <br>
+<br> 
 You can test the endpoints using: 
 -	Postman
 -	cURL commands (examples above)
